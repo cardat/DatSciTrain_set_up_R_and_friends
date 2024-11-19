@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Setup - Data Science Setup Guide</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/r-installation">R Installation</a></li>
+                <li><a href="/rstudio-setup">RStudio Setup</a></li>
+                <li><a href="/git-setup">Git Setup</a></li>
+                <li><a href="/github-setup">GitHub Setup</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 id="setting-up-github">Setting up GitHub</h1>
+
+<p>GitHub is a platform for hosting and collaborating on code repositories.</p>
+
+<ol>
+  <li>Create an account at <a href="https://github.com/">GitHub</a></li>
+  <li>Set up SSH keys for secure communication:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen <span class="nt">-t</span> ed25519 <span class="nt">-C</span> <span class="s2">"your.email@example.com"</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Add the SSH key to your GitHub account:
+    <ul>
+      <li>Copy the public key</li>
+      <li>Go to GitHub → Settings → SSH and GPG keys</li>
+      <li>Click “New SSH key”</li>
+      <li>Paste your key and save</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="connecting-git-to-github">Connecting Git to GitHub</h2>
+
+<p>Test your connection:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh <span class="nt">-T</span> git@github.com
+</code></pre></div></div>
+
+<p>You should see a message confirming successful authentication.</p>
+
+        </div>
+    </div>
+</body>
+</html>

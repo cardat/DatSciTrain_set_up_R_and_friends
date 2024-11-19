@@ -1,5 +1,5 @@
 title: Data Science Setup Guide
 description: Guide for setting up R, RStudio, Git, and GitHub for data science training
-url: ""
-baseurl: ""
+# url: ""
+baseurl: /DatSciTrain_set_up_R_and_friends
 theme: minima

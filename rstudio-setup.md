@@ -9,21 +9,20 @@ RStudio is an Integrated Development Environment (IDE) that makes working with R
 
 ## Installation
 
-1. Visit [RStudio Download Page](https://posit.co/download/rstudio-desktop/)
-2. Download the free RStudio Desktop version for your operating system
-3. Run the installer
+1. Ensure you have R installed
+2. Visit [RStudio Download Page](https://posit.co/download/rstudio-desktop/)
+3. Download the free RStudio Desktop version for your operating system
+4. Run the installer
 
 ## Recommended Settings
 
 After installing RStudio, we recommend the following settings:
 
 1. Tools → Global Options
-   - Appearance:
-     - Choose a theme (we recommend 'Tomorrow Night Blue' or 'Cobalt')
-     - Font size: 12
+   - General
+     - Set "Save workspace to Rdata on exit" to Never
    - Code:
-     - Enable "Show line numbers"
-     - Enable "Highlight selected word"
+     - Enable "Soft-wrap R source files"
    - Pane Layout:
      - Ensure you have the following arrangement:
        - Top-left: Source
